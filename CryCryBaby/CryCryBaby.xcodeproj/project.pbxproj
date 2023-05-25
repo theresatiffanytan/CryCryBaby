@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F05C1E92A1473EA00A3F685 /* CryCryBabyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05C1E82A1473EA00A3F685 /* CryCryBabyApp.swift */; };
+		0F05C1EB2A1473EA00A3F685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05C1EA2A1473EA00A3F685 /* ContentView.swift */; };
+		0F05C1ED2A1473EA00A3F685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F05C1EC2A1473EA00A3F685 /* Assets.xcassets */; };
+		0F05C1F02A1473EA00A3F685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F05C1EF2A1473EA00A3F685 /* Preview Assets.xcassets */; };
+		0F05C1FA2A1473EB00A3F685 /* CryCryBabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05C1F92A1473EB00A3F685 /* CryCryBabyTests.swift */; };
+		0F05C2042A1473EB00A3F685 /* CryCryBabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05C2032A1473EB00A3F685 /* CryCryBabyUITests.swift */; };
+		0F05C2062A1473EB00A3F685 /* CryCryBabyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05C2052A1473EB00A3F685 /* CryCryBabyUITestsLaunchTests.swift */; };
+		0F61B9152A1B6A6B00010527 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9142A1B6A6B00010527 /* Recorder.swift */; };
+		0F61B9172A1B6D2F00010527 /* Recordings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9162A1B6D2F00010527 /* Recordings.swift */; };
+		0F61B9192A1B6DD500010527 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9182A1B6DD500010527 /* Player.swift */; };
+		0F61B91D2A1BADDB00010527 /* BabiesCrying.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B91C2A1BADDB00010527 /* BabiesCrying.mlmodel */; };
+		0F61B9222A1C58A400010527 /* Sound Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9212A1C58A400010527 /* Sound Classifier.swift */; };
+		0F61B9282A1F09E800010527 /* BabiesCrying1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9272A1F09E800010527 /* BabiesCrying1.mlmodel */; };
+		0F61B92A2A1F3DB800010527 /* CryBabyFinal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9292A1F3DB800010527 /* CryBabyFinal.mlmodel */; };
+		0F61B92C2A1F5BE400010527 /* IntroPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B92B2A1F5BE400010527 /* IntroPageModel.swift */; };
+		0F61B92E2A1F8F1300010527 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B92D2A1F8F1300010527 /* IntroView.swift */; };
+		0F61B9322A1F902400010527 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F61B9312A1F902400010527 /* IntroPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F05C1F62A1473EB00A3F685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F05C1DD2A1473EA00A3F685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F05C1E42A1473EA00A3F685;
+			remoteInfo = CryCryBaby;
+		};
+		0F05C2002A1473EB00A3F685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F05C1DD2A1473EA00A3F685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F05C1E42A1473EA00A3F685;
+			remoteInfo = CryCryBaby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F05C1E52A1473EA00A3F685 /* CryCryBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryCryBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F05C1E82A1473EA00A3F685 /* CryCryBabyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryCryBabyApp.swift; sourceTree = "<group>"; };
+		0F05C1EA2A1473EA00A3F685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F05C1EC2A1473EA00A3F685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F05C1EF2A1473EA00A3F685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F05C1F52A1473EB00A3F685 /* CryCryBabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryCryBabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F05C1F92A1473EB00A3F685 /* CryCryBabyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryCryBabyTests.swift; sourceTree = "<group>"; };
+		0F05C1FF2A1473EB00A3F685 /* CryCryBabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryCryBabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F05C2032A1473EB00A3F685 /* CryCryBabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryCryBabyUITests.swift; sourceTree = "<group>"; };
+		0F05C2052A1473EB00A3F685 /* CryCryBabyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryCryBabyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F61B9142A1B6A6B00010527 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		0F61B9162A1B6D2F00010527 /* Recordings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recordings.swift; sourceTree = "<group>"; };
+		0F61B9182A1B6DD500010527 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0F61B91C2A1BADDB00010527 /* BabiesCrying.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BabiesCrying.mlmodel; sourceTree = "<group>"; };
+		0F61B9212A1C58A400010527 /* Sound Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound Classifier.swift"; sourceTree = "<group>"; };
+		0F61B9272A1F09E800010527 /* BabiesCrying1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BabiesCrying1.mlmodel; sourceTree = "<group>"; };
+		0F61B9292A1F3DB800010527 /* CryBabyFinal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CryBabyFinal.mlmodel; sourceTree = "<group>"; };
+		0F61B92B2A1F5BE400010527 /* IntroPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageModel.swift; sourceTree = "<group>"; };
+		0F61B92D2A1F8F1300010527 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		0F61B9312A1F902400010527 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F05C1E22A1473EA00A3F685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1F22A1473EB00A3F685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1FC2A1473EB00A3F685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F05C1DC2A1473EA00A3F685 = {
+			isa = PBXGroup;
+			children = (
+				0F05C1E72A1473EA00A3F685 /* CryCryBaby */,
+				0F05C1F82A1473EB00A3F685 /* CryCryBabyTests */,
+				0F05C2022A1473EB00A3F685 /* CryCryBabyUITests */,
+				0F05C1E62A1473EA00A3F685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F05C1E62A1473EA00A3F685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F05C1E52A1473EA00A3F685 /* CryCryBaby.app */,
+				0F05C1F52A1473EB00A3F685 /* CryCryBabyTests.xctest */,
+				0F05C1FF2A1473EB00A3F685 /* CryCryBabyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F05C1E72A1473EA00A3F685 /* CryCryBaby */ = {
+			isa = PBXGroup;
+			children = (
+				0F05C1E82A1473EA00A3F685 /* CryCryBabyApp.swift */,
+				0F05C1EA2A1473EA00A3F685 /* ContentView.swift */,
+				0F61B9142A1B6A6B00010527 /* Recorder.swift */,
+				0F61B9162A1B6D2F00010527 /* Recordings.swift */,
+				0F61B9182A1B6DD500010527 /* Player.swift */,
+				0F61B9312A1F902400010527 /* IntroPage.swift */,
+				0F61B92D2A1F8F1300010527 /* IntroView.swift */,
+				0F61B92B2A1F5BE400010527 /* IntroPageModel.swift */,
+				0F61B9202A1C587400010527 /* Machine Learning */,
+				0F05C1EC2A1473EA00A3F685 /* Assets.xcassets */,
+				0F05C1EE2A1473EA00A3F685 /* Preview Content */,
+			);
+			path = CryCryBaby;
+			sourceTree = "<group>";
+		};
+		0F05C1EE2A1473EA00A3F685 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F05C1EF2A1473EA00A3F685 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F05C1F82A1473EB00A3F685 /* CryCryBabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F05C1F92A1473EB00A3F685 /* CryCryBabyTests.swift */,
+			);
+			path = CryCryBabyTests;
+			sourceTree = "<group>";
+		};
+		0F05C2022A1473EB00A3F685 /* CryCryBabyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F05C2032A1473EB00A3F685 /* CryCryBabyUITests.swift */,
+				0F05C2052A1473EB00A3F685 /* CryCryBabyUITestsLaunchTests.swift */,
+			);
+			path = CryCryBabyUITests;
+			sourceTree = "<group>";
+		};
+		0F61B9202A1C587400010527 /* Machine Learning */ = {
+			isa = PBXGroup;
+			children = (
+				0F61B91C2A1BADDB00010527 /* BabiesCrying.mlmodel */,
+				0F61B9272A1F09E800010527 /* BabiesCrying1.mlmodel */,
+				0F61B9292A1F3DB800010527 /* CryBabyFinal.mlmodel */,
+				0F61B9212A1C58A400010527 /* Sound Classifier.swift */,
+			);
+			path = "Machine Learning";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F05C1E42A1473EA00A3F685 /* CryCryBaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F05C2092A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBaby" */;
+			buildPhases = (
+				0F05C1E12A1473EA00A3F685 /* Sources */,
+				0F05C1E22A1473EA00A3F685 /* Frameworks */,
+				0F05C1E32A1473EA00A3F685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryCryBaby;
+			productName = CryCryBaby;
+			productReference = 0F05C1E52A1473EA00A3F685 /* CryCryBaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F05C1F42A1473EB00A3F685 /* CryCryBabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F05C20C2A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBabyTests" */;
+			buildPhases = (
+				0F05C1F12A1473EB00A3F685 /* Sources */,
+				0F05C1F22A1473EB00A3F685 /* Frameworks */,
+				0F05C1F32A1473EB00A3F685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F05C1F72A1473EB00A3F685 /* PBXTargetDependency */,
+			);
+			name = CryCryBabyTests;
+			productName = CryCryBabyTests;
+			productReference = 0F05C1F52A1473EB00A3F685 /* CryCryBabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F05C1FE2A1473EB00A3F685 /* CryCryBabyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F05C20F2A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBabyUITests" */;
+			buildPhases = (
+				0F05C1FB2A1473EB00A3F685 /* Sources */,
+				0F05C1FC2A1473EB00A3F685 /* Frameworks */,
+				0F05C1FD2A1473EB00A3F685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F05C2012A1473EB00A3F685 /* PBXTargetDependency */,
+			);
+			name = CryCryBabyUITests;
+			productName = CryCryBabyUITests;
+			productReference = 0F05C1FF2A1473EB00A3F685 /* CryCryBabyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F05C1DD2A1473EA00A3F685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0F05C1E42A1473EA00A3F685 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0F05C1F42A1473EB00A3F685 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0F05C1E42A1473EA00A3F685;
+					};
+					0F05C1FE2A1473EB00A3F685 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0F05C1E42A1473EA00A3F685;
+					};
+				};
+			};
+			buildConfigurationList = 0F05C1E02A1473EA00A3F685 /* Build configuration list for PBXProject "CryCryBaby" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F05C1DC2A1473EA00A3F685;
+			productRefGroup = 0F05C1E62A1473EA00A3F685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F05C1E42A1473EA00A3F685 /* CryCryBaby */,
+				0F05C1F42A1473EB00A3F685 /* CryCryBabyTests */,
+				0F05C1FE2A1473EB00A3F685 /* CryCryBabyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F05C1E32A1473EA00A3F685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F05C1F02A1473EA00A3F685 /* Preview Assets.xcassets in Resources */,
+				0F05C1ED2A1473EA00A3F685 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1F32A1473EB00A3F685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1FD2A1473EB00A3F685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F05C1E12A1473EA00A3F685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61B9282A1F09E800010527 /* BabiesCrying1.mlmodel in Sources */,
+				0F61B92C2A1F5BE400010527 /* IntroPageModel.swift in Sources */,
+				0F05C1EB2A1473EA00A3F685 /* ContentView.swift in Sources */,
+				0F61B9322A1F902400010527 /* IntroPage.swift in Sources */,
+				0F05C1E92A1473EA00A3F685 /* CryCryBabyApp.swift in Sources */,
+				0F61B91D2A1BADDB00010527 /* BabiesCrying.mlmodel in Sources */,
+				0F61B9152A1B6A6B00010527 /* Recorder.swift in Sources */,
+				0F61B9222A1C58A400010527 /* Sound Classifier.swift in Sources */,
+				0F61B9192A1B6DD500010527 /* Player.swift in Sources */,
+				0F61B92A2A1F3DB800010527 /* CryBabyFinal.mlmodel in Sources */,
+				0F61B92E2A1F8F1300010527 /* IntroView.swift in Sources */,
+				0F61B9172A1B6D2F00010527 /* Recordings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1F12A1473EB00A3F685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F05C1FA2A1473EB00A3F685 /* CryCryBabyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F05C1FB2A1473EB00A3F685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F05C2062A1473EB00A3F685 /* CryCryBabyUITestsLaunchTests.swift in Sources */,
+				0F05C2042A1473EB00A3F685 /* CryCryBabyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F05C1F72A1473EB00A3F685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F05C1E42A1473EA00A3F685 /* CryCryBaby */;
+			targetProxy = 0F05C1F62A1473EB00A3F685 /* PBXContainerItemProxy */;
+		};
+		0F05C2012A1473EB00A3F685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F05C1E42A1473EA00A3F685 /* CryCryBaby */;
+			targetProxy = 0F05C2002A1473EB00A3F685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F05C2072A1473EB00A3F685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F05C2082A1473EB00A3F685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F05C20A2A1473EB00A3F685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryCryBaby/Preview Content\"";
+				DEVELOPMENT_TEAM = G8XXRLYN3L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F05C20B2A1473EB00A3F685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryCryBaby/Preview Content\"";
+				DEVELOPMENT_TEAM = G8XXRLYN3L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F05C20D2A1473EB00A3F685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBabyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryCryBaby.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryCryBaby";
+			};
+			name = Debug;
+		};
+		0F05C20E2A1473EB00A3F685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBabyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryCryBaby.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryCryBaby";
+			};
+			name = Release;
+		};
+		0F05C2102A1473EB00A3F685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBabyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryCryBaby;
+			};
+			name = Debug;
+		};
+		0F05C2112A1473EB00A3F685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tiffany.CryCryBabyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryCryBaby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F05C1E02A1473EA00A3F685 /* Build configuration list for PBXProject "CryCryBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F05C2072A1473EB00A3F685 /* Debug */,
+				0F05C2082A1473EB00A3F685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F05C2092A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F05C20A2A1473EB00A3F685 /* Debug */,
+				0F05C20B2A1473EB00A3F685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F05C20C2A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F05C20D2A1473EB00A3F685 /* Debug */,
+				0F05C20E2A1473EB00A3F685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F05C20F2A1473EB00A3F685 /* Build configuration list for PBXNativeTarget "CryCryBabyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F05C2102A1473EB00A3F685 /* Debug */,
+				0F05C2112A1473EB00A3F685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F05C1DD2A1473EA00A3F685 /* Project object */;
+}
